@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./Perfil.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Emmanuel Caraballo</h1>
+            <p class="profile-summary">
+                Hola, mi nombre es Emmanuel Caraballo Mancipe del grado 11-1, estudiante de la especialidad mecanica industrial he estudiado en la institucion desde el año 2020, este año con la ayuda de Dios salgo del colegio y ir a la universidad o para el SENA a seguir con la rama de mecanica.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:caraballoemmanuel7@gmail.com">caraballoemmanuel7@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573179606179" target="_blank" rel="noopener noreferrer">+57 3179606179</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados </h3>
+            <ul class="list">
+                <li>
+                    <h4>Colegio</h4>
+                    <p>Finalización de la primaria en el año 2019 y inicio de Bachillerato en 2020, fecha de finalizacion en el año 2025.</p>
+                    <P>Descripción: En el año 2014 inicie mi basica primaria y en 2019 la finalice, y en 2020 inicie mi bachillerato, en el momento estoy en grado once con una modalidad, y al finalizar mi grado tendre mi carton de bachiller y de tecnico del SENA.</P>
+                </li>
+                <li>
+                    <h4>Tecnica | SENA</h4>
+                    <p>Mecanica industrial| Año de Finalización: 2025</p>
+                    <p>Descripción: Formación académica en soldadura, manejo de maquinas industriales como, torno, fresadora, taladro industrial, etc.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Aprendiz | Colegio</h4>
+                    <p>Enero 2024 - Noviembre 2025 <br>Descripción: Aprendi a utilizar maquinas a las cuales sabia que existian, agarre experiencia en el tema de soldadura ya que sabia pero eso me ayudo a agarrar mas experiencia para no equivocarme.</p>
+                </li>
+                <li>
+                    <h4>Torno | Proyectos Personales</h4>
+                    <p>Julio 2024 - Presente <br>Descripción: Creé y aprendi a hacer piezas con aluminio o hierro en el torno, que son hacerle un cilindrado, tipo de cono y tambien roscado a la pieza.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Soldadura</li>
+                    <li>Torno</li>
+                    <li>Fresadora</li>
+                    <li>Taladro industrial</li>
+                    <li>Esmeril</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Atención al detalle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./Perfil.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="URL_GITHUB" target="_blank" class="linktree-link"><strong>GitHub</strong></a>
+            <a href="URL_LINKEDIN" target="_blank" class="linktree-link"><strong>LinkedIn</strong></a>
+            <a href="URL_PORTAFOLIO" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Emmanuel Caraballo Mancipe <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
